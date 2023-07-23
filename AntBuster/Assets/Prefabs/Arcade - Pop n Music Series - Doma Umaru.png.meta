@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: b6adb8253dc6e5b499b0b01f087e602d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2756
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214e02f82de0bc547814c8f4a854a3db
+      internalID: -1435719463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2731
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebee537bc63b994fb792d1931eed7f7
+      internalID: 1001012829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2753
+        width: 81
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81911801be7d5484699911db5ff62ef2
+      internalID: 125497688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2768
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7b6e314c700334eb8f3867dd59e71f
+      internalID: 293731670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_4
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2770
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f933709f9eda544dac8b7f848b5444b
+      internalID: -720693929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2684
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea0afcd7da5a184fbb3ef8cb8214070
+      internalID: 1443496435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2680
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759a4877fa6aa7d408824054e26c84fb
+      internalID: -1352050102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2680
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40ffcbc3bc5433488345a522a8d0eb4
+      internalID: 822901462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2676
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad70f5059bf63424191ee8ec65c70b9c
+      internalID: -1498170128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_9
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2677
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10411cbdfd358e848b98addee5a20155
+      internalID: 932842548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_12
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2588
+        width: 99
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986fde2c4d449404f9f693f640147f49
+      internalID: -106093426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_13
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 2578
+        width: 98
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1651b253ed56d04bb2359b5c7747f21
+      internalID: -511566478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_14
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2578
+        width: 97
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609e12a6e1a59fd46aeb0a163ed78ce6
+      internalID: -1740395043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2627
+        width: 87
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c970d36cff3994983c11d70bb11878
+      internalID: -87140809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2621
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0d89b4cc0ea6b4fb7af051ef20abf3
+      internalID: -1447452648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2405
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5ffb0c10088b44cb7c8350e958da08
+      internalID: -1956090575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2405
+        width: 133
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7b492347117ae40a2bef8954610673
+      internalID: -289887033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_22
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2406
+        width: 122
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b100686272cf0a4ead6f5dc40fcadb1
+      internalID: 967537972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2141
+        width: 212
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f1d17c7f93f734c9a4b559a291dca2
+      internalID: 566612638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_24
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2141
+        width: 220
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e4f5b7c57b3ee43aff349239b8c2d0
+      internalID: -1691363410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_25
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2137
+        width: 212
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd794cd8aae5efd44b762e29ecf4b5e7
+      internalID: -1013004036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_26
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1834
+        width: 225
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80b1c77538b6824e9dd3fcbb7635e81
+      internalID: 1473808500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_27
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1831
+        width: 226
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aadbe1e91debdf4e960fb23a28d4254
+      internalID: 1274968766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_28
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1834
+        width: 233
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b097d8c88aa0045b6171e24a54f08e
+      internalID: -89401747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1419
+        width: 99
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1112b81202819c418eb4c72774234dd
+      internalID: -1279192662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_46
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1400
+        width: 109
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d3492af1a00214d9d2c4ab84e49f86
+      internalID: 1493117071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_49
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1402
+        width: 107
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b5499d7d63656419195a152edc4e1e
+      internalID: -1966299832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_55
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1361
+        width: 140
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a085b4ed8df3e7f459355abefca7555f
+      internalID: -1754365932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_57
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1363
+        width: 140
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9486f2e7960b8146aed9ecf5464fa7b
+      internalID: -293731456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_67
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1199
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2025b3b17fe6eb04686da5bf698e8659
+      internalID: -1695186987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_68
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1199
+        width: 110
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a107535badf847f4ea5fb542b2afe01c
+      internalID: -1338708315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_69
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1199
+        width: 102
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb63f80661cc86449b6dfa2591a56d33
+      internalID: 1642900961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_70
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1199
+        width: 107
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122f7b4fd6deba242a277f1226d329e9
+      internalID: -1056860648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_71
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1200
+        width: 115
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268c992714717cd4aaf0d32d406f1ed4
+      internalID: -346290219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_72
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1040
+        width: 104
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1da6e7cd5cc2c47af5c85d669f4318
+      internalID: -1485404378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_73
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1040
+        width: 99
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8075cde1baf42d449b61db14ca79be7f
+      internalID: -903069718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_74
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1039
+        width: 103
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3697461d159899428b63faa34bf75ef
+      internalID: -112331410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_75
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 875
+        width: 121
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184fc36e7899f964da6f5a7ba317de0f
+      internalID: 1056521561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_76
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 876
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18487e630249774faaca7142f6aef40
+      internalID: -69890076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_77
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 876
+        width: 119
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b347b87e2c36d124b90204f5aeb94721
+      internalID: -1066197648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_78
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 908
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19adefefad4a2742b3380400727696a
+      internalID: 51653665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_79
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 908
+        width: 95
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f697e7d6529fbbc42aea98f06b133afc
+      internalID: 1098912074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Pop n Music Series - Doma Umaru_80
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 908
+        width: 95
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9701fd63132693943a99752a3ae6cd60
+      internalID: 52784600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Pop n Music Series - Doma Umaru_0: -1435719463
+      Arcade - Pop n Music Series - Doma Umaru_1: 1001012829
+      Arcade - Pop n Music Series - Doma Umaru_10: 321814189
+      Arcade - Pop n Music Series - Doma Umaru_11: 107824811
+      Arcade - Pop n Music Series - Doma Umaru_12: -106093426
+      Arcade - Pop n Music Series - Doma Umaru_13: -511566478
+      Arcade - Pop n Music Series - Doma Umaru_14: -1740395043
+      Arcade - Pop n Music Series - Doma Umaru_15: -87140809
+      Arcade - Pop n Music Series - Doma Umaru_16: 75408615
+      Arcade - Pop n Music Series - Doma Umaru_17: -1447452648
+      Arcade - Pop n Music Series - Doma Umaru_18: 167299007
+      Arcade - Pop n Music Series - Doma Umaru_19: 1733625102
+      Arcade - Pop n Music Series - Doma Umaru_2: 125497688
+      Arcade - Pop n Music Series - Doma Umaru_20: -1956090575
+      Arcade - Pop n Music Series - Doma Umaru_21: -289887033
+      Arcade - Pop n Music Series - Doma Umaru_22: 967537972
+      Arcade - Pop n Music Series - Doma Umaru_23: 566612638
+      Arcade - Pop n Music Series - Doma Umaru_24: -1691363410
+      Arcade - Pop n Music Series - Doma Umaru_25: -1013004036
+      Arcade - Pop n Music Series - Doma Umaru_26: 1473808500
+      Arcade - Pop n Music Series - Doma Umaru_27: 1274968766
+      Arcade - Pop n Music Series - Doma Umaru_28: -89401747
+      Arcade - Pop n Music Series - Doma Umaru_29: -994157384
+      Arcade - Pop n Music Series - Doma Umaru_3: 293731670
+      Arcade - Pop n Music Series - Doma Umaru_30: 1387867904
+      Arcade - Pop n Music Series - Doma Umaru_31: -2100820782
+      Arcade - Pop n Music Series - Doma Umaru_32: -2097903010
+      Arcade - Pop n Music Series - Doma Umaru_33: -630990018
+      Arcade - Pop n Music Series - Doma Umaru_34: -1137357940
+      Arcade - Pop n Music Series - Doma Umaru_35: -594940816
+      Arcade - Pop n Music Series - Doma Umaru_36: -1279192662
+      Arcade - Pop n Music Series - Doma Umaru_37: -429775337
+      Arcade - Pop n Music Series - Doma Umaru_38: 1905721759
+      Arcade - Pop n Music Series - Doma Umaru_39: 1578395931
+      Arcade - Pop n Music Series - Doma Umaru_4: -720693929
+      Arcade - Pop n Music Series - Doma Umaru_40: -709329327
+      Arcade - Pop n Music Series - Doma Umaru_41: 590485705
+      Arcade - Pop n Music Series - Doma Umaru_42: -1882644308
+      Arcade - Pop n Music Series - Doma Umaru_43: -632637047
+      Arcade - Pop n Music Series - Doma Umaru_44: -173214799
+      Arcade - Pop n Music Series - Doma Umaru_45: 1970017155
+      Arcade - Pop n Music Series - Doma Umaru_46: 1493117071
+      Arcade - Pop n Music Series - Doma Umaru_47: -958639609
+      Arcade - Pop n Music Series - Doma Umaru_48: -1133930724
+      Arcade - Pop n Music Series - Doma Umaru_49: -1966299832
+      Arcade - Pop n Music Series - Doma Umaru_5: 1443496435
+      Arcade - Pop n Music Series - Doma Umaru_50: -1284509204
+      Arcade - Pop n Music Series - Doma Umaru_51: 1297260809
+      Arcade - Pop n Music Series - Doma Umaru_52: -1984347316
+      Arcade - Pop n Music Series - Doma Umaru_53: -1732837758
+      Arcade - Pop n Music Series - Doma Umaru_54: -221677390
+      Arcade - Pop n Music Series - Doma Umaru_55: -1754365932
+      Arcade - Pop n Music Series - Doma Umaru_56: 315064719
+      Arcade - Pop n Music Series - Doma Umaru_57: -293731456
+      Arcade - Pop n Music Series - Doma Umaru_58: 533722285
+      Arcade - Pop n Music Series - Doma Umaru_59: 997470020
+      Arcade - Pop n Music Series - Doma Umaru_6: -1352050102
+      Arcade - Pop n Music Series - Doma Umaru_60: 1418183458
+      Arcade - Pop n Music Series - Doma Umaru_61: -1025210048
+      Arcade - Pop n Music Series - Doma Umaru_62: 1150720038
+      Arcade - Pop n Music Series - Doma Umaru_63: -698162299
+      Arcade - Pop n Music Series - Doma Umaru_64: -2012960557
+      Arcade - Pop n Music Series - Doma Umaru_65: 362691966
+      Arcade - Pop n Music Series - Doma Umaru_66: -352398554
+      Arcade - Pop n Music Series - Doma Umaru_67: -1695186987
+      Arcade - Pop n Music Series - Doma Umaru_68: -1338708315
+      Arcade - Pop n Music Series - Doma Umaru_69: 1642900961
+      Arcade - Pop n Music Series - Doma Umaru_7: 822901462
+      Arcade - Pop n Music Series - Doma Umaru_70: -1056860648
+      Arcade - Pop n Music Series - Doma Umaru_71: -346290219
+      Arcade - Pop n Music Series - Doma Umaru_72: -1485404378
+      Arcade - Pop n Music Series - Doma Umaru_73: -903069718
+      Arcade - Pop n Music Series - Doma Umaru_74: -112331410
+      Arcade - Pop n Music Series - Doma Umaru_75: 1056521561
+      Arcade - Pop n Music Series - Doma Umaru_76: -69890076
+      Arcade - Pop n Music Series - Doma Umaru_77: -1066197648
+      Arcade - Pop n Music Series - Doma Umaru_78: 51653665
+      Arcade - Pop n Music Series - Doma Umaru_79: 1098912074
+      Arcade - Pop n Music Series - Doma Umaru_8: -1498170128
+      Arcade - Pop n Music Series - Doma Umaru_80: 52784600
+      Arcade - Pop n Music Series - Doma Umaru_81: -1263317752
+      Arcade - Pop n Music Series - Doma Umaru_82: 800017785
+      Arcade - Pop n Music Series - Doma Umaru_83: 1433411159
+      Arcade - Pop n Music Series - Doma Umaru_84: 907412600
+      Arcade - Pop n Music Series - Doma Umaru_85: 949106443
+      Arcade - Pop n Music Series - Doma Umaru_86: -1687725611
+      Arcade - Pop n Music Series - Doma Umaru_87: 239898046
+      Arcade - Pop n Music Series - Doma Umaru_88: 2000108001
+      Arcade - Pop n Music Series - Doma Umaru_89: 171145061
+      Arcade - Pop n Music Series - Doma Umaru_9: 932842548
+      Arcade - Pop n Music Series - Doma Umaru_90: 1046169959
+      Arcade - Pop n Music Series - Doma Umaru_91: 1676444094
+      Arcade - Pop n Music Series - Doma Umaru_92: 1705134411
+      Arcade - Pop n Music Series - Doma Umaru_93: -990017262
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
