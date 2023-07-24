@@ -1,16 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Collections;
 using UnityEngine;
 
-public class Pistol : Guns
+public class Rifle : Guns
 {
     public void Start()
     {
-        damage = 5;
-        range = 3f;
-        attackSpeed = 4f;
+        damage = 7;
+        range = 4f;
+        attackSpeed = 3f;
     }
-
-
 }

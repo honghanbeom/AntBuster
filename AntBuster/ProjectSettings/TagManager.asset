@@ -8,6 +8,8 @@ TagManager:
   - UpToLeft
   - UpToDown
   - DownToUp
+  - Bullet
+  - Umaru
   layers:
   - Default
   - TransparentFX

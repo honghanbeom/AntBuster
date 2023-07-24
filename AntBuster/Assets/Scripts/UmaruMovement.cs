@@ -7,13 +7,14 @@ public class UmaruMovement : MonoBehaviour
 {
     private float speed = 3f;
     public int umaruHP = 10;
-    public float colorChangeDuration = 0.3f;
+    public float colorChangeDuration = 0.2f;
+    public float deadAniDuration = 2f;
+    public float coinAniDuration = 4f;
     private Color originColor;
-    private bool isDead = false;
-    private bool isDamaged = false; 
-    private Rigidbody2D umaruBody;
+    //private bool isDamaged = false; 
+    public Rigidbody2D umaruBody;
     private Renderer umaruColor;
-    private Animator animator;
+    public Animator animator;
     public GameObject[] coinsPreb;
 
     // Start is called before the first frame update
@@ -49,47 +50,57 @@ public class UmaruMovement : MonoBehaviour
         {
             umaruBody.velocity = Vector2.up * speed;
         }
-        else if (collision.collider.tag.Equals("Bullet"))
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Bullet")
         {
             if (umaruHP > 0)
-            {
-                StartCoroutine(ChangeColor());
-                isDamaged = true;
-                animator.SetBool("isDamaged", isDamaged);
-                isDamaged = false;
-            }
-            else
             { 
-                isDead = true;
-                animator.SetBool("isDead", isDead);
+                StartCoroutine(ChangeColor());
+            }
+            else if (umaruHP <= 0)
+            {
                 Dead();
             }
         }
     }
 
+    public int TakeDamage(int damage)
+    {
+        umaruHP -= damage;
+        Debug.LogFormat("우마루 체력 : {0}",umaruHP);
+        return umaruHP;
+    }
+
+
+
     void Dead()
     {
         if (umaruHP <= 0)
         {
+            //isDead = true;
             GameObject coins;
-            Destroy(gameObject);
             // sliver 0,1,2 gold 3,4 ruby 5
             int coinNumber = Random.Range(0,6);
             if (coinNumber < 3)
             {
-                coins = Instantiate(coinsPreb[coinNumber],
+                coins = Instantiate(coinsPreb[0],
                    gameObject.transform.position, gameObject.transform.rotation);
             }
             else if (coinNumber == 5)
             {
-                coins = Instantiate(coinsPreb[coinNumber],
+                coins = Instantiate(coinsPreb[2],
                   gameObject.transform.position, gameObject.transform.rotation);
             }
-            else
+            else if (coinNumber == 3 && coinNumber == 4)
             {
-                coins = Instantiate(coinsPreb[coinNumber],
+                coins = Instantiate(coinsPreb[1],
                    gameObject.transform.position, gameObject.transform.rotation);
             }
+
+            StartCoroutine(DeadAnimation());
         }
     }
 
@@ -99,4 +110,19 @@ public class UmaruMovement : MonoBehaviour
         yield return new WaitForSeconds(colorChangeDuration);
         umaruColor.material.color = originColor;
     }
+
+    private IEnumerator DeadAnimation()
+    {
+        umaruBody.velocity = Vector3.zero;  
+        animator.SetTrigger("isDead");
+        yield return new WaitForSeconds(deadAniDuration);
+        gameObject.SetActive(false);
+
+    }
+
+    //private IEnumerator CoinAnimation()
+    //{
+    //    yield return new WaitForSeconds(coinAniDuration);
+    //    Dead();
+    //}
 }

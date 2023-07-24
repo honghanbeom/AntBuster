@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 6924947262370821569}
   m_Layer: 0
   m_Name: NormalUmaru
-  m_TagString: Untagged
+  m_TagString: Umaru
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,7 +223,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   umaruHP: 10
+  colorChangeDuration: 0.3
   umaruBody: {fileID: 6924947262370821569}
+  animator: {fileID: 6924947262370821596}
+  coinsPreb:
+  - {fileID: 4699197084473890699, guid: bcde99ca88263b14d9bbdceeb5e6fbeb, type: 3}
+  - {fileID: 3022304223562596910, guid: 8761bd8882fedb0468f5cac00bb2c372, type: 3}
+  - {fileID: 5286943745789693987, guid: 9164b37556a8a764c84040f2f18cdf40, type: 3}
 --- !u!50 &6924947262370821569
 Rigidbody2D:
   serializedVersion: 4
