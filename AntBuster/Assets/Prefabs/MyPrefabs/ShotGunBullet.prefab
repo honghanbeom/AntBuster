@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7700790074090052268}
   - component: {fileID: 1333666646775323211}
   - component: {fileID: 6200216640430932216}
-  - component: {fileID: 3228597655716448678}
   - component: {fileID: 5576419088667901705}
+  - component: {fileID: -2367606706200809856}
   m_Layer: 0
   m_Name: ShotGunBullet
   m_TagString: Bullet
@@ -108,21 +108,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &3228597655716448678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7673554306858446675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b2290f11a8f49d4d8b455d6c8066a45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletspeed: 7
-  umaru: {fileID: 6924947262370821593, guid: 3db86843d745fc640920f8439c214179, type: 3}
-  pistol: {fileID: 4278926063971419564, guid: 3bc5349e7d6341d40afc5dd949a307c8, type: 3}
 --- !u!58 &5576419088667901705
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -138,4 +123,19 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
+--- !u!114 &-2367606706200809856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673554306858446675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f5ee017abfb40408658e10e24048fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletspeed: 6
+  umaru: {fileID: 6924947262370821593, guid: 3db86843d745fc640920f8439c214179, type: 3}
+  shotGun: {fileID: 4278926063971419564, guid: 3bc5349e7d6341d40afc5dd949a307c8, type: 3}

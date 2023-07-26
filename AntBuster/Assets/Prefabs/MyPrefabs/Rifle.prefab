@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 7576103404029482648}
   - component: {fileID: 7576103404029482649}
   - component: {fileID: 7576103404029482654}
+  - component: {fileID: 3867968390816361989}
   m_Layer: 0
   m_Name: Rifle
-  m_TagString: Untagged
+  m_TagString: Rifle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,9 +121,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
-  range: 4
+  range: 10
   attackSpeed: 3
   gun: {fileID: 7576103404029482655}
   target: {fileID: 6924947262370821599, guid: 3db86843d745fc640920f8439c214179, type: 3}
-  bulletPrefab: {fileID: 116746015305372357, guid: 176632c1096a73c4988254698b4a415b, type: 3}
+  bulletPrefab: {fileID: 116746015305372357, guid: 7378cf8d0adcc8f4b97760f9cac870a5, type: 3}
   animator: {fileID: 7576103404029482649}
+  guns: []
+--- !u!61 &3867968390816361989
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7576103404029482655}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0.41, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 0.48}
+    newSize: {x: 1.28, y: 0.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.28, y: 0.48}
+  m_EdgeRadius: 0

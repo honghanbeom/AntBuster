@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 5286943745789693997}
   - component: {fileID: 5286943745789693996}
   - component: {fileID: 5286943745789693999}
+  - component: {fileID: -6637289917303975195}
   m_Layer: 0
   m_Name: Ruby
-  m_TagString: Untagged
+  m_TagString: coins
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,9 +73,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1597858141
+  m_SortingLayer: 3
+  m_SortingOrder: 20
   m_Sprite: {fileID: 594319585, guid: 0ca5c328f9073114dac874e462e6d0da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -119,3 +120,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc14916876e1f6a4580d884414dba763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &-6637289917303975195
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5286943745789693987}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.08

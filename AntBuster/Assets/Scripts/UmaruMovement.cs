@@ -5,8 +5,9 @@ using UnityEngine.SocialPlatforms;
 
 public class UmaruMovement : MonoBehaviour
 {
-    private float speed = 3f;
-    public int umaruHP = 10;
+    public float speed = 3f;
+    public float umaruHP = 10f;
+
     public float colorChangeDuration = 0.2f;
     public float deadAniDuration = 2f;
     public float coinAniDuration = 4f;
@@ -20,6 +21,7 @@ public class UmaruMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         umaruBody = GetComponent<Rigidbody2D>();
         umaruColor = GetComponent<Renderer>();
         originColor = umaruColor.material.color;
@@ -67,12 +69,21 @@ public class UmaruMovement : MonoBehaviour
         }
     }
 
-    public int TakeDamage(int damage)
+    public float TakeDamage(float damage)
     {
         umaruHP -= damage;
-        Debug.LogFormat("우마루 체력 : {0}",umaruHP);
         return umaruHP;
     }
+
+    public (float HP, float Speed) UpdateValues(float updateHP, float updateSpeed)
+    {
+        umaruHP = updateHP;
+        speed = updateSpeed;
+
+        return (umaruHP, speed);
+    }
+
+
 
 
 
@@ -80,27 +91,33 @@ public class UmaruMovement : MonoBehaviour
     {
         if (umaruHP <= 0)
         {
+            UIManager.instance.score += 50;
             //isDead = true;
+            GetComponent<Collider2D>().enabled = false;
+            StartCoroutine(DeadAnimation());
             GameObject coins;
-            // sliver 0,1,2 gold 3,4 ruby 5
-            int coinNumber = Random.Range(0,6);
-            if (coinNumber < 3)
+            float silverProb = 0.5f;
+            float goldProb = 0.3f;
+            float rubyProb = 0.2f;
+
+            float randomValue = Random.value;
+
+            if (randomValue < silverProb)
             {
-                coins = Instantiate(coinsPreb[0],
-                   gameObject.transform.position, gameObject.transform.rotation);
+                coins = Instantiate(coinsPreb[0], gameObject.transform.position, 
+                    gameObject.transform.rotation);
             }
-            else if (coinNumber == 5)
+            else if (randomValue < silverProb + goldProb)
             {
-                coins = Instantiate(coinsPreb[2],
-                  gameObject.transform.position, gameObject.transform.rotation);
+                coins = Instantiate(coinsPreb[2], gameObject.transform.position, 
+                    gameObject.transform.rotation);
             }
-            else if (coinNumber == 3 && coinNumber == 4)
+            else
             {
-                coins = Instantiate(coinsPreb[1],
-                   gameObject.transform.position, gameObject.transform.rotation);
+                coins = Instantiate(coinsPreb[1], gameObject.transform.position,
+                    gameObject.transform.rotation);
             }
 
-            StartCoroutine(DeadAnimation());
         }
     }
 

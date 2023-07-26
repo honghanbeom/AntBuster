@@ -87,6 +87,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b2290f11a8f49d4d8b455d6c8066a45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletspeed: 9
+  bulletspeed: 5
   umaru: {fileID: 6924947262370821593, guid: 3db86843d745fc640920f8439c214179, type: 3}
   pistol: {fileID: 3722118980183168117, guid: da9b3dc2e696d424faee5ac7cc7cf53e, type: 3}

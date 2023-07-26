@@ -10,11 +10,17 @@ TagManager:
   - DownToUp
   - Bullet
   - Umaru
+  - coins
+  - Pistol
+  - Rifle
+  - ShotGun
+  - NullCheck
+  - TowerSpace
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Umaru
   - Water
   - UI
   - 

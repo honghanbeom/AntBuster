@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6924947261298911482}
   - component: {fileID: 6924947261298911483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Umaru_HP_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 6924947262370821568}
   - component: {fileID: 6924947262370821574}
   - component: {fileID: 6924947262370821569}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NormalUmaru
   m_TagString: Umaru
   m_Icon: {fileID: 0}
@@ -222,8 +222,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78edba12554837248845e510738cf3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 3
   umaruHP: 10
   colorChangeDuration: 0.3
+  deadAniDuration: 2
+  coinAniDuration: 4
   umaruBody: {fileID: 6924947262370821569}
   animator: {fileID: 6924947262370821596}
   coinsPreb:
